@@ -105,6 +105,7 @@ int main(int argc, char* argv[])
 	king->setWeapon(new AxeBehaviour()); // dynamically change weapon behaviour/algorithm
 	king->fight();
 
+	// Clean up
 	delete king;
 	king = nullptr;
 	
